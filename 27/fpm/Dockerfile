@@ -118,7 +118,7 @@ RUN { \
 VOLUME /var/www/html
 
 
-ENV NEXTCLOUD_VERSION 27.1.7
+ENV NEXTCLOUD_VERSION 27.1.8
 
 RUN set -ex; \
     fetchDeps=" \
